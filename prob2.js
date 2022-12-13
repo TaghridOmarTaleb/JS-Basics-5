@@ -1,5 +1,15 @@
-let name=document.getElementById("name");
-document.getElementById("validate").onclick=()=>{
+let user=document.getElementById("name");
+document.getElementById("validate").onclick= ()=>{
+if(user.value=="Alice"|| user.value=="Bob"){
 
-alert("hello "+ name.value ) 
+    alert ("Hello " + user.value);
+}
+ else {
+    alert("hello stranger")
+}
+    
+
+
+
+    
 }
