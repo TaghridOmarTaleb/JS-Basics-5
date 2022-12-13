@@ -1,5 +1,7 @@
-let name=document.getElementById("name");
-document.getElementById("validate").onclick=()=>{
+// let name=document.getElementById("name");
+// document.getElementById("validate").onclick=()=>{
 
-alert("hello "+ name.value ) 
-}
+// alert("hello "+ name.value ) 
+// }
+
+
